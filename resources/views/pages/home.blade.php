@@ -1,7 +1,8 @@
 @extends( 'layout.app' )
 
-@section('content')
 
+
+@section('content')
 
 <div class="bg">
 
@@ -10,7 +11,7 @@
 
         @foreach($comics as $elem)
         <div class="cardDc">
-            <img src="{{$elem['thumb']}}" alt="">
+            <img src="{{ $elem['thumb'] }}" alt="">
             <h3>{{$elem['type']}}</h3>
         </div>
         @endforeach
