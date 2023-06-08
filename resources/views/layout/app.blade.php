@@ -14,6 +14,11 @@
 
 
 
+    <main>
+
+        @yield('content')
+
+    </main>
 
 
 
